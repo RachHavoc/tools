@@ -34,8 +34,9 @@ chmod +x generate_usernames.py
 ```
 
 📄 Usage
+```bash
 python3 generate_usernames.py <input_file> [options]
-
+```
 Arguments
 Flag	Description	Default
 input	Path to input file containing names (First Last)	Required
@@ -95,8 +96,9 @@ d03j4n3
 ...
 
 4. Combine Emails + Leet + Verbose
+```bash
 python3 generate_usernames.py names.txt --leet --domain example.com --verbose
-
+```
 
 Console Output:
 
